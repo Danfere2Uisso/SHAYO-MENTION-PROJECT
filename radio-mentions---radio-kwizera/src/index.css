@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --rk-red: #EE1C25;
+    --rk-purple: #7A128B;
+    --rk-blue: #0033A0;
+    --rk-cyan: #00A3E0;
+    --rk-dark: #070C18;
+    --rk-dark-card: #0D1527;
+  }
+}
+
+/* Radio Kwizera Official Brand Color Utility Classes */
+.bg-rk-red { background-color: #EE1C25; }
+.text-rk-red { color: #EE1C25; }
+.border-rk-red { border-color: #EE1C25; }
+
+.bg-rk-purple { background-color: #7A128B; }
+.text-rk-purple { color: #7A128B; }
+.border-rk-purple { border-color: #7A128B; }
+
+.bg-rk-blue { background-color: #0033A0; }
+.text-rk-blue { color: #0033A0; }
+.border-rk-blue { border-color: #0033A0; }
+
+.bg-rk-cyan { background-color: #00A3E0; }
+.text-rk-cyan { color: #00A3E0; }
+.border-rk-cyan { border-color: #00A3E0; }
+
+/* Radio Kwizera Brand Gradient (Red -> Purple -> Blue) */
+.bg-rk-gradient {
+  background: linear-gradient(135deg, #EE1C25 0%, #7A128B 50%, #0033A0 100%);
+}
+
+.bg-rk-gradient-h {
+  background: linear-gradient(90deg, #EE1C25 0%, #7A128B 50%, #0033A0 100%);
+}
+
+.text-rk-gradient {
+  background: linear-gradient(135deg, #EE1C25 0%, #9C27B0 50%, #2563EB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-rk-gradient {
+  border-image: linear-gradient(90deg, #EE1C25, #7A128B, #0033A0) 1;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #070C18;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}

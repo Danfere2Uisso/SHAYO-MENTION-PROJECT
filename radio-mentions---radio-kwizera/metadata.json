@@ -1,0 +1,6 @@
+{
+  "name": "Radio Mentions - Radio Kwizera",
+  "description": "Radio Kwizera 97.7 FM (Jukwaa la Matumaini) - Commercial ad uploader studio, broadcast schedule, certified airplay proof reports, and presenter studio sign-off system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
